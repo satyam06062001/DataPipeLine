@@ -1,0 +1,20 @@
+2025-04-11 11:25:07 - INFO - Logger initialized for Gold Layer - Final Aggregation.
+2025-04-11 11:25:07 - INFO - Created JDBC connection string and connection properties
+2025-04-11 11:25:08 - INFO - Temp view match_performance created successfully
+2025-04-11 11:25:08 - INFO - Temp view match_stadium created successfully
+2025-04-11 11:25:08 - INFO - Temp view player_performance created successfully
+2025-04-11 11:25:09 - INFO - Temp view player_team created successfully
+2025-04-11 11:25:09 - INFO - Temp view stadium created successfully
+2025-04-11 11:25:10 - INFO - Temp view team created successfully
+2025-04-11 11:25:10 - INFO - Loaded all Silver Layer cleaned tables.
+2025-04-11 11:25:11 - INFO - Performing SQL queries on the Silver Layer tables.
+2025-04-11 11:25:12 - INFO - Team_performance_metrics table created successfully
+2025-04-11 11:25:14 - INFO - Team_performance_metrics table written to Gold Layer and SQL Database successfully
+2025-04-11 11:25:16 - INFO - venue_analysis table created successfully
+2025-04-11 11:25:18 - INFO - venue_analysis table written to Gold Layer and SQL Database successfully
+2025-04-11 11:25:20 - INFO - Player_Efficiency_Metrics table created successfully
+2025-04-11 11:25:22 - INFO - Player_Efficiency_Metrics table written to Gold Layer and SQL Database successfully
+2025-04-11 11:25:24 - INFO - Additional_Metrics table created successfully
+2025-04-11 11:25:26 - INFO - Additional_Metrics table written to Gold Layer and SQL Database successfully
+2025-04-11 11:25:28 - INFO - Player_Contribution table created successfully
+2025-04-11 11:25:30 - INFO - Player_Contribution table written to Gold Layer and SQL Database successfully

@@ -1,0 +1,15 @@
+2025-04-11 11:20:22 - INFO - Logger initialized for Bronze Layer - raw data ingestion.
+2025-04-11 11:20:52 - INFO - Reading raw CSV files from: mnt/blob_storage
+2025-04-11 11:20:56 - INFO - Loaded file: match_performance.csv into Spark DataFrame.
+2025-04-11 11:20:56 - INFO - Audit columns added: ingestion_date, source_file.
+2025-04-11 11:20:58 - INFO - Loaded file: match_stadium.csv into Spark DataFrame.
+2025-04-11 11:20:58 - INFO - Audit columns added: ingestion_date, source_file.
+2025-04-11 11:20:59 - INFO - Loaded file: player_team.csv into Spark DataFrame.
+2025-04-11 11:20:59 - INFO - Audit columns added: ingestion_date, source_file.
+2025-04-11 11:21:00 - INFO - Loaded file: player_performance.csv into Spark DataFrame.
+2025-04-11 11:21:00 - INFO - Audit columns added: ingestion_date, source_file.
+2025-04-11 11:21:01 - INFO - Loaded file: stadium.csv into Spark DataFrame.
+2025-04-11 11:21:02 - INFO - Audit columns added: ingestion_date, source_file.
+2025-04-11 11:21:03 - INFO - Loaded file: team.csv into Spark DataFrame.
+2025-04-11 11:21:03 - INFO - Audit columns added: ingestion_date, source_file.
+2025-04-11 11:21:52 - INFO - Data written to Bronze Layer at: /mnt/adls_storage/bronze in parquet format

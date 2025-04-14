@@ -1,0 +1,22 @@
+2025-04-11 11:22:49 - INFO - Logger initialized for Silver Layer - data refinement.
+2025-04-11 11:22:53 - INFO - Loaded file: All 6 parquet files from Bronze Layer and stored it in 6 different Data Frame.
+2025-04-11 11:23:05 - INFO - Calculated NULL values in each column in df_match_performance.
+2025-04-11 11:23:06 - INFO - Column renamed in df_match_performance also replaced unknown to 0 in run_scored column.
+2025-04-11 11:23:08 - INFO - Calculated NULL values in each column in df_match_stadium.
+2025-04-11 11:23:08 - INFO - Deleted rows where stadium_id is NULL in df_match_stadium.
+2025-04-11 11:23:11 - INFO - Calculated NULL values in each column in df_player_performance.
+2025-04-11 11:23:11 - INFO - Deleted rows where match_id or player_id is NULL in df_player_performance. Also renamed columns wickets_taken to player_wickets_taken and runs_scored to player_runs_scored in df_player_performance_cleaned.
+2025-04-11 11:23:12 - INFO - Deleted rows where player_id or team_id is NULL in df_player_team. Also renamed columns team_id to player_team_id in df_player_team_cleaned.
+2025-04-11 11:23:14 - INFO - Deleted rows where stadium_id is NULL in df_stadium in df_stadium_cleaned.
+2025-04-11 11:23:15 - INFO - Deleted rows where team_id is NULL in df_team in df_team_cleaned.
+2025-04-11 11:23:28 - INFO - Unmounted /mnt/adls_storage/silver
+2025-04-11 11:23:40 - INFO - Mounted /mnt/adls_storage/silver
+2025-04-11 11:24:00 - INFO - Saved silver tables to /mnt/adls_storage/silver in parquet format
+2025-04-11 11:24:01 - INFO - Created JDBC connection string and connection properties
+2025-04-11 11:24:02 - INFO - Saved silver tables to SQL Server in master_table
+2025-04-11 11:24:03 - INFO - Saved silver tables to SQL Server in match_performance
+2025-04-11 11:24:04 - INFO - Saved silver tables to SQL Server in match_stadium
+2025-04-11 11:24:05 - INFO - Saved silver tables to SQL Server in player_performance
+2025-04-11 11:24:06 - INFO - Saved silver tables to SQL Server in player_team
+2025-04-11 11:24:07 - INFO - Saved silver tables to SQL Server in stadium
+2025-04-11 11:24:07 - INFO - Saved silver tables to SQL Server in team
