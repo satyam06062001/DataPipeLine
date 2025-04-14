@@ -23,7 +23,4 @@ To build a robust, automated, and scalable data pipeline leveraging Azure servic
 - **Azure Data Factory (ADF)** – Orchestration and automation of data pipeline
 - **Power BI** – Reporting and dashboard visualization
 
----
-
-## 🛠️ Architecture Overview
 
